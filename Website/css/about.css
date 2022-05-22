@@ -1,0 +1,66 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    font-weight: 10;
+    font-size: 50px;
+    margin-bottom: 8rem;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto 0 auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin-bottom: 30vh;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    clip-path: circle(50% at 50% 50%);
+    margin-bottom: 20px;
+}
+
+.pf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.speech {
+    text-align: center;
+    font-size: 16px;
+}
+
+.passion {
+    padding-top: 4rem;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.container a {
+    color: ghostwhite;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gugi&family=Limelight&family=Marmelad&family=Noto+Sans&family=Poppins&family=Prompt&family=Share+Tech&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    color: white;
+    font-size: 14px;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    min-height: 100%;
+    background-image: url(../images/background%20demo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar a {
+    color: ghostwhite;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+footer {
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer i {
+    color: ghostwhite;
+}

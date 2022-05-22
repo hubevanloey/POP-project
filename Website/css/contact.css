@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    font-weight: 10;
+    font-size: 50px;
+    margin-bottom: 8rem;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto 30vh auto;
+    height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+.contactreverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    width: 300px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.container a {
+    color: ghostwhite;
+}
+
+.fb:hover {
+    color: #4267B2;
+}
+
+.email:hover {
+    color: #FFFF8F;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contactreverse {
+        flex-direction: column;
+    }
+
+    .fb {
+        margin-bottom: 20px;
+    }
+
+    .email {
+        margin-bottom: 20px;
+    }
+
+}

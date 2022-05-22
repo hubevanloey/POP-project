@@ -1,0 +1,44 @@
+#music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    font-weight: 10;
+    font-size: 50px;
+    margin-bottom: 8rem;
+}
+
+#playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30vh;
+}
+
+
+.song {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomargin {
+    margin-bottom: 0px;
+}
+
+.song p {
+    font-size: 16px;
+    text-align: center;
+    overflow: visible;
+}

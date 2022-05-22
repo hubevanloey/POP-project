@@ -1,0 +1,136 @@
+h1 {
+    text-align: center;
+    color: ghostwhite;
+    font-weight: 10;
+    font-size: 50px;
+}
+
+#motto {
+    font-size: 20px;
+}
+
+#whoami {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+#name {
+    margin-bottom: 8rem;
+}
+
+#cover {
+    max-width: 500px;
+    height: auto;
+}
+
+#latestnews {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 30vh;
+}
+
+#newsdisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90%;
+}
+
+.newsitem {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 28%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.newsitem p {
+    align-self: center;
+    margin: auto;
+    text-align: center
+}
+
+.newsitem img {
+    width: 100%;
+    height: 80%;
+}
+
+#upcomingevents {
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 30vh;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+}
+
+#bookings {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 30vh;
+}
+
+#bookingdisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 12vh;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact a {
+    color: ghostwhite;
+}
+
+.fb:hover {
+    color: #4267B2;
+}
+
+.email:hover {
+    color: #FFFF8F;
+}
+
+@media screen and (max-width: 768px) {
+    #latestnews {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        margin-bottom: 30vh;
+    }
+
+    #newsdisplay {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1000%;
+    }
+
+    .newsitem {
+        width: 350px;
+        height: 350px;
+    }
+
+    #bookingdisplay {
+        flex-direction: column;
+        margin-top: 0vh;
+        height: 45vh;
+    }
+
+    #cover {
+        max-width: 350px;
+        height: auto;
+    }
+}
